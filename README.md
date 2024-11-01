@@ -1,7 +1,5 @@
 # moinsa
 
----
-
 - forntend : React.js<br/>
 - backend : Spring<br/>
 - DB : MySQL<br/>
