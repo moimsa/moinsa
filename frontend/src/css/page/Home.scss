@@ -1,0 +1,51 @@
+.HomeWrap{
+  .notice--box__wrap{
+    .notice--box{
+      h2{
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .notice--item__box{
+        border-top: 1px solid rgb(236, 236, 236);
+        li{
+          a{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #222;
+            h6{
+              width: 55%;
+              margin-right: 5%;
+              overflow:hidden;
+              text-overflow:ellipsis;
+              white-space:nowrap;
+              font-weight: bold;
+            }
+            .notice--item__postInfo{
+              display: flex;
+              align-items: center;
+              gap: 5%;
+              width: 40%;
+              position: relative;
+              .poster{
+                position: relative;
+                &::before{
+                  content: '';
+                  position: absolute;
+                  top: -2%;
+                  right: -10%;
+                  width: 1px;
+                  height: 1rem;
+                  background-color: rgb(206, 206, 206);
+                }
+              }
+            }
+          }
+          padding: 3%;
+          border-bottom: 1px solid rgb(236, 236, 236);
+        }
+      }
+    }
+  }
+}

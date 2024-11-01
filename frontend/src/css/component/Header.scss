@@ -1,0 +1,25 @@
+.header_wrap{background: #f1f1f1;position: relative;}
+.header_inner{padding: 5% 4%;display: flex;align-items: center;justify-content: space-between;}
+
+.menuBtn{display: block; width: 1.3rem;height: 1.3rem;cursor: pointer;position: relative;overflow: hidden;}
+.menuBtn > span{display: block;background: #333;width: 1.3rem;height: 0.2rem;margin-top: 0.2rem;transition: all 0.2s;}
+.menuBtn.on{display: none;}
+.menuBtn.on > span:nth-of-type(1){position: absolute;left: -3px;top: 9px;transition: all 0.1s;transform: rotate(45deg);width: 1.7rem; margin-top: 0;}
+.menuBtn.on > span:nth-of-type(2){position: absolute;left: -100%;top: 9px;transition: all 0.1s;}
+.menuBtn.on > span:nth-of-type(3){position: absolute;left: -3px;top: 9px;transition: all 0.1s;transform: rotate(-45deg);width: 1.7rem; margin-top: 0;}
+
+.menuList{position: absolute;left: -10rem;top: 0; width: 10rem;height: 100vh;background: #d1d1d1;padding: 1rem 0 0;transition: all 0.2s;}
+.menuList .nav_inner{position: relative;}
+.menuList ul{width: 100%;padding-top: 50px;}
+.menuList ul > li{text-align: center;margin-top: 1rem;}
+.menuList ul > li:first-child{margin-top: 0;}
+.menuList ul > li > a{color: #222;}
+.menuList ul > li > a:hover{text-decoration: underline; text-underline-position: under;}
+.menuList.on{position: absolute;left: 0px;top: 0; width: 10rem;height: 100vh;background: #d1d1d1;padding: 1rem 0 0;transition: all 0.2s;box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);}
+
+.menuList .menuBtn{display: none; position: absolute !important;right: 1rem;top: 0; width: 1.3rem;height: 1.3rem;cursor: pointer;position: relative;overflow: hidden;}
+.menuList .menuBtn > span{display: block;background: #333;width: 1.3rem;height: 0.2rem;margin-top: 0.2rem;transition: all 0.2s;}
+.menuList .menuBtn.on {display: block;}
+.menuList .menuBtn.on > span:nth-of-type(1){position: absolute;left: -3px;top: 9px;transition: all 0.1s;transform: rotate(45deg);width: 1.7rem; margin-top: 0;}
+.menuList .menuBtn.on > span:nth-of-type(2){position: absolute;left: -100%;top: 9px;transition: all 0.1s;}
+.menuList .menuBtn.on > span:nth-of-type(3){position: absolute;left: -3px;top: 9px;transition: all 0.1s;transform: rotate(-45deg);width: 1.7rem; margin-top: 0;}

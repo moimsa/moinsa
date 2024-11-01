@@ -1,0 +1,16 @@
+.AttendCheckTable{
+  table{
+    width: 100%;
+    margin-top: 1rem;
+    thead{
+      text-align: center;
+    }
+    tbody{
+      text-align: center;
+    }
+    td{
+      border: 1px solid #d6d6d6;
+      padding: 3% 0;
+    }
+  }
+}
